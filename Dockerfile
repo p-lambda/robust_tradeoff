@@ -18,3 +18,5 @@ RUN pyenv rehash
 RUN pip install --upgrade pip
 ADD ./requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+RUN apt-get install -y texlive-full
+RUN apt-get install bc
