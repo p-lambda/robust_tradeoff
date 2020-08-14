@@ -1,0 +1,17 @@
+torch==1.4.0
+torchvision==0.5.0
+numpy
+pandas
+scipy
+statsmodels
+bitarray
+future
+NearPy
+Pillow
+python-dateutil
+pytz
+six
+tqdm
+matplotlib
+cvxpy
+joblib
